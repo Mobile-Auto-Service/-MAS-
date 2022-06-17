@@ -77,7 +77,7 @@
 ## *Credits:*
 
 
-Copyright (c) _2022_
+_Copyright (c) 2022_
 
 
 
