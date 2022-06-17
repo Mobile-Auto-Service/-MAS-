@@ -44,9 +44,6 @@
         - low fidelity: ....link
         - high fidelity: ....link
 
-    - Paper Wireframe 
-        - mobile: ....link
-        - Desktop ....link
     - App Flow
 
 ### Frontend Dev
@@ -62,7 +59,7 @@
 
 ### Project Management:
 
-- [Github:](https://github.com/Mobile-Auto-Service/-MAS-)
+- [Github](https://github.com/Mobile-Auto-Service/-MAS-)
 
 
 ## *Future Features*
@@ -80,7 +77,7 @@
 ## *Credits:*
 
 
-Copyright (c) _date_
+Copyright (c) _2022_
 
 
 
