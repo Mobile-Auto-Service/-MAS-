@@ -1,0 +1,308 @@
+
+@use 'global' as *;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:wght@500&display=swap');
+
+
+
+@mixin herobtn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color:#024594;
+}
+.herobutton {
+    color: $prycolor;
+    position: absolute;
+    width: 206px;
+    height: 55px;
+    left: 70px;
+    top: 500px;
+    background: #FFFFFF;
+    border: white;
+    border-radius: 25px;
+    @include herobtn
+}
+
+.navcolor {
+    color: black !important;
+}
+
+// for nav bar
+@mixin navfonts {
+//     font-family: 'Poppins';
+// font-style: normal;
+// font-weight: 400;
+// font-size: 19px;
+
+}
+
+
+
+.navbaritem {
+    // @include navfonts;
+    color: black !important;
+}
+.navbutton {
+    border: 1px solid #024594;
+    @include navfonts
+}
+// end of navbar
+
+// form
+@mixin formsfont {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+}
+// form for i am a driver
+.input label {
+    
+    @include formsfont
+}
+.input [type=text]{
+    width: 225px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #024594;
+}
+
+.input [type=email] {
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #024594;
+}
+
+.input [type=number] {
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #024594;
+}
+.input [type=password] {
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #024594;
+}
+.input [type=address] {
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #024594;
+}
+.login {
+    color: $prycolor;
+}
+
+// end of form
+
+// beginning of hero
+@mixin herofont1 {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+}
+.backgroundimg {
+     background-image: url("./components/images/bghero.png");
+    height: 660px;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herobg{
+    
+background: none;
+height: 660px;
+}
+
+.herotext {
+    position: absolute;
+    width: 410px;
+    height: 87px;
+    left: 90px;
+    top: 230px;
+}
+.herobigtext {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;   
+     font-size: 50px;
+     width: 10em !important;
+}
+.herosmalltext {
+    font-family: "poppins sans-serif";
+}
+.herobtn {
+    border: 1px solid #024594;
+    font-size: 1.2rem;
+    background-color: #FFFFFF;
+    font-family: "Rubik, sans-serif" !important;
+    color: #0F74FF;
+    font-weight: 300;
+    
+}
+
+// footer
+.footerbg {
+    background-color: #0F74FF;
+    height: 660px;
+}
+
+
+.name {
+    font-size: larger;
+}
+    
+
+.whycard {
+    color: #021A49;
+    margin: 1em  3em;
+}
+
+.header {
+    color: #021A49;
+    text-align: center;
+}
+
+
+
+
+
+.allbgd {
+    background-image: url("./components/images/rty.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+
+     }
+
+ .resize {
+   margin-left: 150px;
+   margin-top: 40px;
+   
+ }
+ 
+// //  img {
+// //       width: 60px;
+// //       margin-left: 60px;
+// //       margin-bottom: 40px;
+ 
+//  }
+ 
+ .iconcar {
+     margin-left: 100px;
+ }
+ 
+ .angl {
+     margin-left: 100px;
+ }
+ 
+ .callen {
+     margin-left: 100px;
+ }
+ 
+ 
+ .Howitworks {
+     margin-left: 480px;
+     margin-top: 50px;
+     color: rgb(22, 21, 85);
+ 
+ }
+ 
+ h2{
+     font-size: 20px;
+ }
+ 
+ .caricon {
+     margin-right: 50px;
+ 
+ }
+ 
+ 
+ 
+ .calender {
+     margin-left: 40px
+ 
+ }
+ .move {
+     margin-left: 40px
+ }
+ 
+ .getmove {
+     margin-left: 45px
+ }
+ 
+ 
+ .round {
+     
+     width: 25px;
+     
+     
+ }
+
+ .accountbackground {
+    background-color: #0F74FF;
+    height: 160px;
+  }
+  
+  .accountcolor {
+    padding-top: 100px;
+  }
+  
+  .dashboard {
+    background-color: #0F74FF;
+  }
+  
+  .booking {
+    background-color: #C4D3E9;
+  }
+  
+  .car {
+    background-color: #C4D3E9;
+  }
+  
+  .account {
+    background-color: #C4D3E9;
+  }
+  
+  .button {
+    background-color: #0F74FF;
+    border-radius: 19px;
+    border: none;
+  }
+  
+  .spanwords {
+    color: #0F74FF;
+  }
+  
+  .formcolor {
+    background-color: #0F74FF;
+    width: 730px;
+    height: 40px;
+  }
+  
+  .readmore {
+    color: #0F74FF;
+  }
+  
+  .readmoreone {
+    margin-left: 370px;
+  }
+  
+  .readmoretwo {
+    margin-left: 352px;
+  }
+  
+  .readmorethree {
+    margin-left: 345px;
+  }
+  /*# sourceMappingURL=style.css.map */

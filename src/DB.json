@@ -1,0 +1,109 @@
+
+{ 
+    "Services" : [
+        {
+            "image": "../images/service1.png",
+            "title": "Roadside Assistance",
+            "content": "Breakdowns are unpredictable, and can happen anywhere any time. Our mobile mechanics are here. Breakdowns commonly occur due to blown out tires or flat tires, engine trouble, low fuel, or if you happen to be stuck somewhere on the road, far from your final destination."
+
+        },
+
+        {
+            "image": "../images/service2.png",
+            "title": "Towing Services",
+            "content": "Stranded and in need of a towing service? Our towing truck comes to you wherever you are, we'll handle your car with care and get it to where it needs to be. Stranded and in need of a towing service? Our towing truck comes to you wherever you are, we'll handle "
+    
+        },
+
+        {
+            "image": "../images/service3.png",
+            "title": "Diagnostic and Inspection",
+            "content": "Buying a car? Pre-purchase inspections happen on the spot, you can rely on us. Something else showing up on your dashboard? Sign in and book an appointment, our mechanics will meet you wherever you are."
+    
+        }
+    ],
+
+     "Why" : [
+        
+        {
+            "icon": "../images/come.png",
+            "title": "We Come To You",
+            "content" : "Book a repair or maintenance service online 24/7. Our mobile mechanics will come to your home or office"
+
+            
+        },
+    
+        {
+            "icon": "../images/price.png",
+            "title" : "Best Prices",
+            "content" : "Because we don’t have all those unnecessary overheads we are able to offer you the best possible prices with all the savings passed onto YOU!"
+        },
+        {
+            "icon": "../images/Diagnostic.png",
+            "title":"Diagnostic and Inspection",
+            "content" : "If you are unsure about what’s wrong with your car but you just know you have a problem select from our list of diagnostic services."
+        },
+        {
+            "icon": "../images/spanner.png",
+            "title" : "Quality Parts",
+            "content" : "We offer high-quality parts from leading manufacturers of aftermarket/OEM parts."
+        },
+        {
+            "icon": "../images/verified.png",
+            "title": "Verfied Mechanics",
+            "content" : "We work with only the best mobile mechanics who are verified to have the individual skills required to give your car the best care possible."
+        },
+        {
+            "icon": "../images/Guaranteed.png",
+            "title": "Guaranteed Workmanship",
+            "content" : "We only work with highly rated mobile mechanics and all services are backed by our 6-month / 10 000km warranty."
+        }
+    
+    
+    
+    
+    ],
+
+    "Team" : [ 
+        {
+            "image": "../images/vincent.png",
+            "namee": "Vincent Edobor",
+            "position": "CEO"
+        },
+        {
+            "image": "../images/seyi.png",
+            "namee": " Akinade Oluwaseyi ",
+            "position": "CEO"
+        },
+        {
+            "image": "../images/seyi.png",
+            "namee": "Samuel Ajayi",
+            "position": "CEO"
+        },
+        {
+            "image": "../images/niyi.png",
+            "namee": "Ayobami Olaniyi",
+            "position": "CEO"
+        }
+
+
+
+
+    ]
+
+
+
+}
+
+
+    
+    
+    
+    
+
+        
+
+
+
+
+
