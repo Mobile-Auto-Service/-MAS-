@@ -1,6 +1,6 @@
 import Data from "../DB.json";
 import { ServiceCard } from "./cardformat";
-import { Why } from "./cardformat";
+import { WhyUs } from "./cardformat";
 import { Team } from "./cardformat";
 
 
@@ -27,7 +27,7 @@ export const Scard  = () => {
             {Data.Why.map((whycard) => {
               return (
                 <div className="col-sm-12 col-md-6 col-lg-6">
-                  <Why {...whycard}></Why>
+                  <WhyUs {...whycard}></WhyUs>
                 </div>
               );
             })}
@@ -38,7 +38,7 @@ export const Scard  = () => {
 
       export const TeamCard  = () => {
         return (
-          <div className="row mx-3 g-3">
+          <div className="row  ">
             {Data.Team.map((team) => {
               return (
                 <div className="col-sm-12 col-md-6 col-lg-6">

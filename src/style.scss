@@ -4,6 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:wght@500&display=swap');
 
 
+.hero1{
+    background-image: url("./components/images/hero1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+
+.hero2{
+    background-image: url("./components/images/hero22.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+
 
 @mixin herobtn {
     font-family: 'Poppins', sans-serif;
@@ -25,9 +39,32 @@
     @include herobtn
 }
 
-.navcolor {
-    color: black !important;
+
+   
+.ntoggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
 }
+
+.newnav {
+    display: inline-block ;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% !;
+}
+
+
+// .navcolor {
+//     color: black !important;
+// }
 
 // for nav bar
 @mixin navfonts {
@@ -40,14 +77,14 @@
 
 
 
-.navbaritem {
-    // @include navfonts;
-    color: black !important;
-}
-.navbutton {
-    border: 1px solid #024594;
-    @include navfonts
-}
+// .navbaritem {
+//     // @include navfonts;
+//     color: black !important;
+// }
+// // .navbutton {
+//     border: 1px solid #024594;
+//     @include navfonts
+// }
 // end of navbar
 
 // form
@@ -112,16 +149,16 @@ font-style: normal;
 font-weight: 700;
 font-size: 50px;
 }
-.backgroundimg {
-     background-image: url("./components/images/bghero.png");
-    height: 660px;
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+// .backgroundimg {
+//      background-image: url("./components/images/bghero.png");
+//     height: 660px;
+//     background-position: inherit;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 .herobg{
     
-background: none;
+// background: none;
 height: 660px;
 }
 
@@ -151,6 +188,14 @@ height: 660px;
     
 }
 
+
+// .cardwidth {
+//     width: 180em;
+// }
+
+
+
+
 // footer
 .footerbg {
     background-color: #0F74FF;
@@ -179,36 +224,33 @@ height: 660px;
 
 .allbgd {
     background-image: url("./components/images/rty.jpeg");
-    background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    
+    
+   
 
      }
 
- .resize {
-   margin-left: 150px;
-   margin-top: 40px;
-   
- }
+
  
-// //  img {
-// //       width: 60px;
-// //       margin-left: 60px;
-// //       margin-bottom: 40px;
+//   .icon{
+//        width: 60px;
+//       margin-left: 60px;
+//       margin-bottom: 40px;
  
 //  }
  
- .iconcar {
-     margin-left: 100px;
- }
+//  .iconcar {
+//      margin-left: 100px;
+//  }
  
- .angl {
-     margin-left: 100px;
- }
+//  .angl {
+//      margin-left: 100px;
+//  }
  
- .callen {
-     margin-left: 100px;
- }
+//  .callen {
+//      margin-left: 100px;
+//  }
  
  
  .Howitworks {
@@ -233,9 +275,9 @@ height: 660px;
      margin-left: 40px
  
  }
- .move {
-     margin-left: 40px
- }
+//  .move {
+//      margin-left: 40px
+ 
  
  .getmove {
      margin-left: 45px

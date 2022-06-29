@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:wght@500&display=swap");
+.hero1 {
+  background-image: url("./components/images/hero1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
+}
+
+.hero2 {
+  background-image: url("./components/images/hero22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
+}
+
 .herobutton {
   color: #024594;
   position: absolute;
@@ -17,16 +31,14 @@
   color: #024594;
 }
 
-.navcolor {
-  color: black !important;
-}
-
-.navbaritem {
-  color: black !important;
-}
-
-.navbutton {
-  border: 1px solid #024594;
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  /* background-color: transparent; */
+  /* border: 1px solid transparent; */
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
 }
 
 .input label {
@@ -80,16 +92,7 @@
   color: #024594;
 }
 
-.backgroundimg {
-  background-image: url("./components/images/bghero.png");
-  height: 660px;
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .herobg {
-  background: none;
   height: 660px;
 }
 
@@ -142,26 +145,7 @@
 
 .allbgd {
   background-image: url("./components/images/rty.jpeg");
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
-}
-
-.resize {
-  margin-left: 150px;
-  margin-top: 40px;
-}
-
-.iconcar {
-  margin-left: 100px;
-}
-
-.angl {
-  margin-left: 100px;
-}
-
-.callen {
-  margin-left: 100px;
 }
 
 .Howitworks {
@@ -179,10 +163,6 @@ h2 {
 }
 
 .calender {
-  margin-left: 40px;
-}
-
-.move {
   margin-left: 40px;
 }
 

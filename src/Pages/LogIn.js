@@ -1,7 +1,9 @@
+
+
 const LogIn = () => {
     return (
             <>
-            
+        
             <section className="text-center">
                     <h2>Log in to Mobile Auto Service</h2>
 

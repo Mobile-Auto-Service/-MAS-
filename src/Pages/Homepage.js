@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { GuestNavbar } from '../components/Navbar';
 import {Hero} from '../components/Hero';
-import { Footer } from '../components/footer';
+
 import { Scard } from '../components/cards';
 import { WhyCard } from '../components/cards';
 import { TeamCard } from '../components/cards';
@@ -11,19 +10,24 @@ import { ContactUs } from '../components/ContactUs';
 
 const HomePage = () => {
   return (
-  <>
-  <GuestNavbar/>
-  <Hero/>
-  <h1 className= "whycard"> WHY MOBILE AUTO SERVICE?</h1>
-  <WhyCard/>
-  <h1 className= "header"> HOW IT WORKS</h1>
-  <HowItWorks/>
-  <h1 className= "header"> SERVICES</h1>
-  <Scard/>
-  <h1 className= "header"> THE TEAM</h1>
-  <TeamCard/>
-  <ContactUs/>
-  <Footer/>
+<>
+
+   {/* <Routes> */}
+     {/* <GuestNavbar/> */}
+    <Hero/>
+      <h1 className= "whycard m-5" id='whyus'> WHY MOBILE AUTO SERVICE?</h1>
+    <WhyCard/>
+      <h1 className= "header m-5"> HOW IT WORKS</h1>
+    <HowItWorks/>
+      <h1 className= "header m-5" id='services'> SERVICES</h1>
+    <Scard/>
+      <h1 className= "header m-5"> THE TEAM</h1>
+    <TeamCard/>
+    < ContactUs />
+      {/* <Footer/> */}
+   {/* </Routes> */}
+
+  
 
 
   </>
